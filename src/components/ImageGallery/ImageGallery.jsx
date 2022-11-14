@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 import '../styles.css';
 import ImageGalleryItem from 'components/ImageGalleryItem';
 
@@ -18,5 +19,4 @@ export default ImageGallery;
 
 ImageGallery.propTypes = {
   items: PropTypes.arrayOf(PropTypes.object),
-  openModal: PropTypes.func.isRequired,
 };
